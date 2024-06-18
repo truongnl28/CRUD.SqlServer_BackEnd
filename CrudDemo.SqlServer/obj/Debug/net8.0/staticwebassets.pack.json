@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CrudDemo.SqlServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CrudDemo.SqlServer.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\10744695.jpg",
+      "PackagePath": "staticwebassets\\products\\10744695.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240507165300379.jpg",
+      "PackagePath": "staticwebassets\\products\\20240507165300379.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240508100413292.jpg",
+      "PackagePath": "staticwebassets\\products\\20240508100413292.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240508110857988.jpg",
+      "PackagePath": "staticwebassets\\products\\20240508110857988.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240509092744660.jpg",
+      "PackagePath": "staticwebassets\\products\\20240509092744660.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240509170243760.jpg",
+      "PackagePath": "staticwebassets\\products\\20240509170243760.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240509170321886.webp",
+      "PackagePath": "staticwebassets\\products\\20240509170321886.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240510100154478.jpg",
+      "PackagePath": "staticwebassets\\products\\20240510100154478.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240510100458229.webp",
+      "PackagePath": "staticwebassets\\products\\20240510100458229.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240510100553410.jpg",
+      "PackagePath": "staticwebassets\\products\\20240510100553410.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513114520627.jpg",
+      "PackagePath": "staticwebassets\\products\\20240513114520627.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513114707403.webp",
+      "PackagePath": "staticwebassets\\products\\20240513114707403.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513114831130.webp",
+      "PackagePath": "staticwebassets\\products\\20240513114831130.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513115002233.webp",
+      "PackagePath": "staticwebassets\\products\\20240513115002233.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513115109807.jpg",
+      "PackagePath": "staticwebassets\\products\\20240513115109807.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513115201655.jpg",
+      "PackagePath": "staticwebassets\\products\\20240513115201655.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513115533736.webp",
+      "PackagePath": "staticwebassets\\products\\20240513115533736.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240513151904926.jpg",
+      "PackagePath": "staticwebassets\\products\\20240513151904926.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240514150949089.gif",
+      "PackagePath": "staticwebassets\\products\\20240514150949089.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515144643095.webp",
+      "PackagePath": "staticwebassets\\products\\20240515144643095.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161337545.jpg",
+      "PackagePath": "staticwebassets\\products\\20240515161337545.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161414710.webp",
+      "PackagePath": "staticwebassets\\products\\20240515161414710.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161448845.webp",
+      "PackagePath": "staticwebassets\\products\\20240515161448845.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161522271.webp",
+      "PackagePath": "staticwebassets\\products\\20240515161522271.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161551163.jpg",
+      "PackagePath": "staticwebassets\\products\\20240515161551163.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161621570.jpg",
+      "PackagePath": "staticwebassets\\products\\20240515161621570.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161655933.gif",
+      "PackagePath": "staticwebassets\\products\\20240515161655933.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161736936.webp",
+      "PackagePath": "staticwebassets\\products\\20240515161736936.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240515161808437.gif",
+      "PackagePath": "staticwebassets\\products\\20240515161808437.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240516142027638.jpg",
+      "PackagePath": "staticwebassets\\products\\20240516142027638.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240516144212250.jpg",
+      "PackagePath": "staticwebassets\\products\\20240516144212250.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240516161614732.gif",
+      "PackagePath": "staticwebassets\\products\\20240516161614732.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240517142306478.gif",
+      "PackagePath": "staticwebassets\\products\\20240517142306478.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240520140752002.gif",
+      "PackagePath": "staticwebassets\\products\\20240520140752002.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240521111523512.gif",
+      "PackagePath": "staticwebassets\\products\\20240521111523512.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\20240521111609798.gif",
+      "PackagePath": "staticwebassets\\products\\20240521111609798.gif"
+    },
+    {
+      "Id": "D:\\CSharp\\CrudDemo.SqlServer\\CrudDemo.SqlServer\\wwwroot\\products\\84600886.jpg",
+      "PackagePath": "staticwebassets\\products\\84600886.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CrudDemo.SqlServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CrudDemo.SqlServer.props",
+      "PackagePath": "build\\CrudDemo.SqlServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CrudDemo.SqlServer.props",
+      "PackagePath": "buildMultiTargeting\\CrudDemo.SqlServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CrudDemo.SqlServer.props",
+      "PackagePath": "buildTransitive\\CrudDemo.SqlServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

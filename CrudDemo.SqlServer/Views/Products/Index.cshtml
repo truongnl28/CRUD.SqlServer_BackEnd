@@ -1,0 +1,183 @@
+﻿@model List<Product>
+@{
+	string searchCategory = ViewBag.SearchCategory as string ?? string.Empty;
+	int currentPage = ViewBag.CurrentPage;
+	int totalPages = ViewBag.TotalPages;
+}
+
+<h2 class="text-center mb-5">LIST OF PRODUCTS</h2>
+
+<div class="row mb-5">
+	<div class="col text-end">
+		<input type="text" id="searchCategory" value="@searchCategory" placeholder="Search by category" oninput="saveSearchState(this)" onkeyup="debouncedSearch()" />
+		<a class="btn btn-primary" asp-controller="Products" asp-action="Create">New Product</a>
+	</div>
+</div>
+
+<table id="productTable">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Brand</th>
+			<th>Category</th>
+			<th>Price</th>
+			<th>Image</th>
+			<th>Created At</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var product in Model)
+		{
+			<tr>
+				<td>@product.Id</td>
+				<td>@product.Name</td>
+				<td>@product.Brand</td>
+				<td>@(product.Category?.CategoryName ?? "No Category")</td>
+				<td>@(product.Price)$</td>
+				<td><img src="/products/@product.ImageFileName" class="product-image" alt="Product Image" /></td>
+				<td>@product.CreatedAt.ToString("MM/dd/yyyy")</td>
+				<td style="white-space:nowrap" class="action-buttons">
+					<a class="btn btn-primary btn-sm" asp-controller="Products" asp-action="Edit" asp-route-id="@product.Id" asp-route-page="@currentPage">Edit</a>
+					<a class="btn btn-danger btn-sm" asp-controller="Products" asp-action="Delete" asp-route-id="@product.Id" onclick="return confirm('Are you sure you want to delete?')">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<div class="pagination">
+	@if (currentPage > 1)
+	{
+		<a href="#" onclick="loadPage(@(currentPage - 1))">Previous</a>
+	}
+	@for (int i = 1; i <= totalPages; i++)
+	{
+		<a href="#" class="@(i == currentPage ? "active" : "")" onclick="loadPage(@i)">@i</a>
+	}
+	@if (currentPage < totalPages)
+	{
+		<a href="#" onclick="loadPage(@(currentPage + 1))">Next</a>
+	}
+</div>
+
+<script>
+	let debounceTimer;
+	let savedSearchState = '';
+
+	function debouncedSearch() {
+		clearTimeout(debounceTimer);
+		debounceTimer = setTimeout(searchCategoryFunction, 300);
+	}
+
+	function saveSearchState(input) {
+		savedSearchState = input.value;
+	}
+
+	function searchCategoryFunction() {
+		loadPage(1); // Reset to page 1 when searching
+	}
+
+	function loadPage(page) {
+		var input = document.getElementById('searchCategory');
+		var searchCategory = input.value;
+
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '/Products?searchCategory=' + encodeURIComponent(searchCategory) + '&page=' + page, true);
+		xhr.onload = function () {
+			if (xhr.status === 200) {
+				var table = document.querySelector('#productTable');
+				var parser = new DOMParser();
+				var newDoc = parser.parseFromString(xhr.responseText, 'text/html');
+				var newTable = newDoc.querySelector('#productTable');
+				table.innerHTML = newTable.innerHTML;
+
+				// Update pagination
+				var pagination = document.querySelector('.pagination');
+				var newPagination = newDoc.querySelector('.pagination');
+				pagination.innerHTML = newPagination.innerHTML;
+
+				input.value = savedSearchState;
+
+				var rowCount = table.rows.length;
+				if (rowCount <= 1) {
+					// If no rows (except header), display a message
+					table.innerHTML = '<tbody><tr><td style="color: red" colspan="8">No products found for the specified category.</td></tr></tbody>';
+				}
+			}
+		};
+		xhr.send();
+	}
+</script>
+
+<style>
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	thead {
+		background-color: #f2f2f2;
+	}
+
+	th, td {
+		padding: 8px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.btn {
+		padding: 5px 10px;
+		text-decoration: none;
+		border: none;
+		cursor: pointer;
+		border-radius: 3px;
+	}
+
+	.btn-primary {
+		background-color: #007bff;
+		color: white;
+	}
+
+	.btn-danger {
+		background-color: #dc3545;
+		color: white;
+	}
+
+	.product-image {
+		width: 100px;
+		height: 100px;
+		object-fit: contain;
+		display: block;
+	}
+
+	#searchCategory {
+		margin-right: 10px;
+		width: 25%;
+		padding: 5px 10px;
+		border-radius: 3px;
+	}
+
+	.pagination {
+		margin-top: 20px;
+		text-align: center;
+		justify-content: center;
+	}
+
+		.pagination a {
+			margin: 0 5px;
+			padding: 5px 10px;
+			text-decoration: none;
+			color: #007bff;
+		}
+
+			.pagination a.active {
+				font-weight: bold;
+				color: #000;
+			}
+
+			.pagination a:hover {
+				text-decoration: underline;
+			}
+</style>

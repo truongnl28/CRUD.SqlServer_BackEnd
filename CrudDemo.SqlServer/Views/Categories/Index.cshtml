@@ -1,0 +1,80 @@
+﻿@model List<Category>
+@{
+}
+
+<h2 class="text-center mb-5">LIST OF CAGETORIES</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger text-center">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div class="row mb-5">
+    <div class="col text-end">
+        <a class="btn btn-primary" asp-controller="Categories" asp-action="Create">New Category</a>
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name Category</td>
+            <td>Action</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.CategoryId</td>
+                <td>@category.CategoryName</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Categories" asp-action="Edit"
+                    asp-route-CategoryId="@category.CategoryId">Edit</a>
+
+                    <a class="btn btn-danger btn-sm" asp-controller="Categories" asp-action="Delete"
+                       asp-route-CategoryId="@category.CategoryId" onclick="return confirm('Are you sure you want to delete?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    thead {
+        background-color: #f2f2f2;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+    }
+</style>
